@@ -1,7 +1,6 @@
-# Determine the week number and weekday of yesterday's date.
-# Retrieve the date of the same week number and weekday from the previous year.
-# Collect the data for the last 10 days from yesterday's date.
-# Compare this data with the data from the corresponding 10-day period from the previous year.
+# This updated code takes into account the specific weekday (e.g., third Thursday) for each date. 
+# It finds the first day of the same month in the previous year, calculates the number of days needed to reach the target weekday, and retrieves the comparable date from the previous year accordingly.
+
 
 import pandas as pd
 from datetime import datetime, timedelta
